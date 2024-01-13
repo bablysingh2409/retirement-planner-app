@@ -31,15 +31,15 @@ function UserInfo() {
             </div>
             <div className='flex justify-between flex-col gap-4'>
                 <p className='text-lg text-black font-semibold'>Recent Transactions</p>
-                <div>
+                <div className='border-b-2 border-gray-300 pb-2'>
                     <p className='text-[#9E9FA5] text-sm'>2020-08-07</p>
                     <h3 className='text-black font-semibold text-sm'>Withdrawal Tranfer to Bank-XXX11</h3>
                 </div>
-                <div>
+                <div className='border-b-2 border-gray-300 pb-2'>
                     <p className='text-[#9E9FA5] text-sm'>2020-07-21</p>
                     <h3 cclassName='text-black font-semibold text-sm'>Withdrawal Tranfer to Bank-XXX11</h3>
                 </div>
-                <div>
+                <div className='border-b-2 border-gray-300 pb-2'>
                     <p className='text-[#9E9FA5] text-sm'>2020-07-16</p>
                     <h3 className='text-black font-semibold text-sm'>Withdrawal Tranfer to Bank-XXX11</h3>
                 </div>

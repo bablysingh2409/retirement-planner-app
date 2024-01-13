@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '../components/Nav'
 import UserInfo from '../components/UserInfo'
+import RetirementPlan from '../components/RetirementPlan'
 
 function Home() {
   return (
@@ -11,7 +12,9 @@ function Home() {
         <div className='w-2/4 bg-[#F5F5F5] h-full'>
           <UserInfo/>
         </div>
-        <div className='w-3/4 bg-gray-800'>Retirement</div>
+        <div className='w-3/4 bg-white'>
+          <RetirementPlan/>
+        </div>
         <div className='w-2/4 bg-purple-600'>Retirement Strategy</div>
     </div>
   )
